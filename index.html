@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bokhonets Artem CV</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="container">
+    <nav class="navbar">
+      <ul>
+        <li><a href="">Item 1</a></li>
+        <li><a href="">Item 2</a></li>
+        <li><a href="">Item 3</a></li>
+        <li><a href="">Item 4</a></li>
+        <li><a href="">Item 5</a></li>
+      </ul>
+    </nav>
+    <header class="card">
+      <div class="info">
+        <img src="Фото.JPG" alt="Мое фото" class="myphoto" />
+        <div class="info-text">
+          <h1>Бохонец Артем</h1>
+          <p>Мне 22 года, я закончил Томский Политехнический университет</p>
+          <p>Хочу начать карьеру в IT</p>
+          <h2>Мои социальные сети</h2>
+          <div class="network">
+            <div class="socnet">
+              <a href="https://m.vk.com/a_bokhonets" target="_blank">VK</a>
+              <a href="https://t.me/ArtemSamurai" target="_blank">Telegram</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="card">
+        <h2>Мои хобби</h2>
+        <ol class="list">
+          <li>Волейбол, настольный теннис</li>
+          <li>Чтение книг</li>
+          <li>Просмотр фильмов</li>
+          <li>Торговля на Wildberries</li>
+        </ol>
+      </section>
+      <section class="card">
+        <h2>Опыт работы</h2>
+        <table class="table">
+          <thead>
+            <th>Компания</th>
+            <th>Должность</th>
+            <th>Период работы</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Транснефть</td>
+              <td>Оператор товарный</td>
+              <td>2022</td>
+            </tr>
+            <tr>
+              <td>Роснефть</td>
+              <td>Трубопроводчик линейный</td>
+              <td>2023</td>
+            </tr>
+            <tr>
+              <td>Газпром</td>
+              <td>Трубопроводчик линейный</td>
+              <td>2024</td>
+            </tr>
+            <tr>
+              <td>ИП Бохонец А.П.</td>
+              <td>ИП Бохонец А.П.</td>
+              <td>настоящее время</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="card">
+        <h2>Связаться со мной</h2>
+        <form action="">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Ваше имя:</label>
+              <input type="text" id="name" placeholder="Введите имя" />
+            </div>
+            <div class="form-group">
+              <label for="email">Ваш Email:</label>
+              <input type="email" id="email" placeholder="Введите email" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message">Ваше сообщение:</label>
+            <textarea
+              id="message"
+              cols="25"
+              rows="5"
+              placeholder="Введите сообщение..."
+            ></textarea>
+          </div>
+          <input class="btn" type="submit" value="Отправить" />
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
